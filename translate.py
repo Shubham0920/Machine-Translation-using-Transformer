@@ -64,7 +64,7 @@ def main():
     parser.add_argument('--encoder_dropout', type=float, default=0.1, help='dropout for encoder feed forward')
     parser.add_argument('--decoder_dropout', type=float, default=0.1, help='dropout for decoder feed forward')
 
-    parser.add_argument('--models_directory', type=str, default='saved_models/', help='directory where models are saved')
+    parser.add_argument('--models_directory', type=str, default='/content/Transformer-Multi-Language-Translator/saved_models', help='directory where models are saved')
   
 
     args = parser.parse_args()
